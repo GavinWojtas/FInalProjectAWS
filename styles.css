@@ -1,0 +1,263 @@
+/* General Body Style */
+body {
+  background-color: #8c8c8c;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.body1 {
+  background-color: #8c8c8c;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+/* Table for Navigation */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+td img {
+  width: 70px;
+  height: 70px;
+}
+
+button {
+  background-color: #454545;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #71310e;
+}
+
+
+/* Menu Page Styles */
+.menu-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+   background-image: url('BackGroundMenuImg.jpg');
+}
+
+.menu-container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 600px;
+  text-align: center;
+}
+
+.menu-section {
+  margin: 20px 0;
+}
+
+.menu-section h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.menu-section ul {
+  list-style-type: none;
+  padding-left: 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.menu-section ul li {
+  margin-bottom: 8px;
+}
+
+.menu-item p:last-child {
+  font-weight: bold;
+}
+
+/* Contact Page Styles */
+.contact-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 600px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Schedule Section Styles */
+.schedule-row {
+  display: flex;
+  justify-content: space-evenly; /* Evenly distribute items across the row */
+  width: 100%; /* Ensure the row takes the full width */
+  margin: 20px 0; /* Space around the row */
+}
+
+.schedule-container {
+  text-align: center;
+  width: 30%; /* Each container will take up 30% of the width */
+  display: flex;
+  flex-direction: column; /* Stack text, button, and image vertically */
+  align-items: center; /* Align content horizontally */
+  justify-content: center; /* Center content vertically */
+}
+
+.schedule-container h2 {
+  margin: 10px 0; /* Add space above and below the text */
+}
+
+.schedule-container img {
+  width: 200px; /* Consistent width for all images */
+  height: 200px; /* Consistent height for all images */
+  object-fit: cover; /* Maintain aspect ratio and crop to fit the box */
+  margin-top: 10px; /* Space between button and image */
+}
+
+.schedule-container button {
+  margin-top: 10px; /* Space between text and button */
+  padding: 10px 20px; /* Button size adjustment */
+  font-size: 16px; /* Font size of the button */
+}
+
+/* Contact Information Styles */
+.contact-info,
+.hours,
+.special-hours {
+  margin: 20px 0;
+}
+
+.contact-info p,
+.hours p,
+.special-hours p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.contact-info a,
+.hours a,
+.special-hours a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.contact-info a:hover,
+.hours a:hover,
+.special-hours a:hover {
+  text-decoration: underline;
+}
+.schedule-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.schedule-container {
+  text-align: center;
+  width: 50%; /* Adjusted width to make it more centered */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.schedule-container h1 {
+  font-size: 32px; /* Larger font size for main header */
+}
+
+.schedule-container .form-group {
+  margin-bottom: 20px;
+}
+
+.schedule-container label {
+  font-size: 18px; /* Increased font size for labels */
+}
+
+.schedule-container input,
+.schedule-container select {
+  font-size: 16px; /* Increased font size for form inputs */
+  padding: 10px;
+  margin-top: 5px;
+  width: 100%; /* Ensure inputs stretch to full width */
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.schedule-container button {
+  font-size: 18px; /* Increased font size for button */
+  margin-top: 10px;
+  padding: 14px 28px;
+}
+
+.schedule-container img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-top: 10px;
+}
+
+/* About Us Page Styles */
+.about-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.about-container {
+  text-align: center;
+  width: 50%; /* Adjusted width for better centering */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-container h1 {
+  font-size: 32px; /* Larger font size for main header */
+}
+
+.about-container h2 {
+  font-size: 28px; /* Font size for section headers */
+  margin-top: 20px;
+}
+
+.about-container p {
+  font-size: 18px; /* Font size for paragraph text */
+  margin-bottom: 20px;
+}
+
+.about-container ul {
+  list-style-type: none;
+  padding-left: 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.about-container ul li {
+  margin-bottom: 8px;
+}

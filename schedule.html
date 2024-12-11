@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Schedule</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation bar with logo at the top-right -->
+  <table>
+    <tr>
+      <td><a href="WebsiteHtml.html"><img style="width:70px; height:70px" src="FinalLogo.png" alt="Logo" /></a></td>
+	  <td><a href="meni.html"><button class="btn Menu">Menu</button></a></td>
+	  <td><a href="schedule.html"><button class="btn Schedule">Schedule</button></a></td>
+	  <td><a href="aboutus.html"><button class="btn Schedule">About Us</button></a></td>
+    </tr>
+  </table>
+  <div class="parent">
+    <img style="width:100%;height:auto" class="image1" src="backgroundLogo.png" alt="Background" />
+  </div>
+
+  <div class="schedule-page">
+    <div class="schedule-container">
+      <h1>Schedule Your Activity</h1>
+      <form id="schedule-form" action="#" method="POST">
+        <!-- First Name -->
+        <div class="form-group">
+          <label for="first-name">First Name:</label>
+          <input type="text" id="first-name" name="first-name" required>
+        </div>
+
+        <!-- Last Name -->
+        <div class="form-group">
+          <label for="last-name">Last Name:</label>
+          <input type="text" id="last-name" name="last-name" required>
+        </div>
+
+        <!-- Activity Selection -->
+        <div class="form-group">
+          <label for="activity">Choose Activity:</label>
+          <select id="activity" name="activity" required>
+            <option value="cornhole">Cornhole</option>
+            <option value="bocce">Bocce Ball</option>
+            <option value="axe-throwing">Axe Throwing</option>
+          </select>
+        </div>
+
+        <!-- Date -->
+        <div class="form-group">
+          <label for="date">Date:</label>
+          <input type="date" id="date" name="date" required>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
